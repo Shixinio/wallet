@@ -1,0 +1,76 @@
+[FINE] 2019-12-28 16:42:02 brs.Burst - DEV.TestNet = 'true'
+[FINE] 2019-12-28 16:42:02 brs.Burst - DEV.DB.Url = "jdbc:h2:mem:test;"
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.DB.Username undefined. Default: ><
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.DB.Password undefined. Default: ><
+[FINE] 2019-12-28 16:42:02 brs.db.sql.Db - Database jdbc url set to: jdbc:h2:mem:test;
+[FINE] 2019-12-28 16:42:02 brs.Burst - DB.Connections = '1'
+[INFO] 2019-12-28 16:42:02 brs.db.sql.Db - Running flyway migration
+[INFO] 2019-12-28 16:42:02 brs.db.sql.Db - Using SQL Backend with Dialect H2
+[INFO] 2019-12-28 16:42:02 brs.Burst - P2P.maxUnconfirmedTransactions undefined. Default: >8192<
+[INFO] 2019-12-28 16:42:02 brs.Burst - P2P.maxUTRawSizeBytesToSend undefined. Default: >175000<
+[INFO] 2019-12-28 16:42:02 brs.Burst - P2P.maxUnconfirmedTransactionsFullHashReferencePercentage undefined. Default: >5<
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.mockMining undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.testUnconfirmedTransactions undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.disablePullUnconfirmedTransactionsThread undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.blockCacheMB undefined. Default: >40<
+[INFO] 2019-12-28 16:42:02 brs.Burst - IndirectIncomingService.Enable undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - AutoPopOff.Enable undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - GPU.Acceleration undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - GPU.UnverifiedQueue undefined. Default: >1000<
+[INFO] 2019-12-28 16:42:02 brs.Burst - DB.trimDerivedTables undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.BlockchainProcessorImpl - Genesis block already in database
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.preDymaxion.startBlock undefined. Default: >-1<
+[INFO] 2019-12-28 16:42:02 brs.BlockchainProcessorImpl - Last block height: 0
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.disableGetMoreBlocksThread undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.disableImportBlocksThread undefined. Default: >false<
+[FINE] 2019-12-28 16:42:02 brs.BlockchainProcessorImpl - Starting preverifier thread in CPU mode.
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.disableGenerateBlocksThread undefined. Default: >false<
+[FINE] 2019-12-28 16:42:02 brs.Burst - API.allowed = "*"
+[FINE] 2019-12-28 16:42:02 brs.Burst - API.Server = 'true'
+[FINE] 2019-12-28 16:42:02 brs.Burst - API.Listen = "127.0.0.1"
+[FINE] 2019-12-28 16:42:02 brs.Burst - DEV.API.Port = '8885'
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.SSL undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.ServerIdleTimeout undefined. Default: >30000<
+[FINE] 2019-12-28 16:42:02 brs.Burst - API.UI_Dir = "html/ui"
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.ServerEnforcePOST undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.AllowedOrigins undefined. Default: >*<
+[INFO] 2019-12-28 16:42:02 brs.Burst - AllowOtherSoloMiners undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.Debug undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.maxRequestsPerSec undefined. Default: >30<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.throttledRequests undefined. Default: >5<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.delayMs undefined. Default: >500<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.maxWaitMs undefined. Default: >50<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.maxRequestMs undefined. Default: >30000<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.throttleMs undefined. Default: >30000<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.maxIdleTrackerMs undefined. Default: >30000<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.trackSessions undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.insertHeaders undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.remotePort undefined. Default: >false<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.ipWhitelist undefined. Default: ><
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.DoSFilter.managedAttr undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.GzipFilter undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.GZIPFilter.methods undefined. Default: >GET, POST<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.GZIPFilter.bufferSize undefined. Default: >8192<
+[INFO] 2019-12-28 16:42:02 brs.Burst - JETTY.API.GZIPFilter.minGzipSize undefined. Default: >0<
+[INFO] 2019-12-28 16:42:02 brs.Burst - API.V2.Server undefined. Default: >true<
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.API.V2.Port undefined. Default: >6878<
+[INFO] 2019-12-28 16:42:02 brs.Burst - Starting V2 API Server on port 6878
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.debugTraceEnable undefined. Default: >false<
+[FINE] 2019-12-28 16:42:02 brs.Burst - DEV.Offline = 'true'
+[INFO] 2019-12-28 16:42:02 brs.Burst - DEV.TimeWarp undefined. Default: >1<
+[FINE] 2019-12-28 16:42:02 brs.util.ThreadPool - Running 0 tasks...
+[FINE] 2019-12-28 16:42:02 brs.util.ThreadPool - Running 1 final tasks...
+[INFO] 2019-12-28 16:42:02 brs.http.API - Started API server at 127.0.0.1:8885
+[INFO] 2019-12-28 16:42:02 brs.Burst - CPU.NumCores undefined. Default: >-1<
+[WARNING] 2019-12-28 16:42:02 brs.util.ThreadPool - Cannot use 0 cores - defaulting to all available
+[FINE] 2019-12-28 16:42:02 brs.util.ThreadPool - Starting 8 background jobs
+[FINE] 2019-12-28 16:42:02 brs.util.ThreadPool - Starting 0 delayed tasks
+[INFO] 2019-12-28 16:42:02 brs.Burst - Initialization took 122 ms
+[INFO] 2019-12-28 16:42:02 brs.Burst - CBW v2.5.3 started successfully.
+[INFO] 2019-12-28 16:42:02 brs.Burst - RUNNING ON TESTNET - DO NOT USE REAL ACCOUNTS!
+[INFO] 2019-12-28 16:42:02 brs.Burst - Shutting down...
+[INFO] 2019-12-28 16:42:02 brs.util.ThreadPool - Stopping background jobs...
+[INFO] 2019-12-28 16:42:02 brs.Burst - brs.ShutdownTimeout undefined. Default: >180<
+[INFO] 2019-12-28 16:42:02 brs.util.ThreadPool - ...Done
+[INFO] 2019-12-28 16:42:02 brs.Burst - CBW v2.5.3 stopped.
